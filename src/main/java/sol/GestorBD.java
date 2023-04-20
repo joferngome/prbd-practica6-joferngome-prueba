@@ -33,7 +33,7 @@ public class GestorBD extends bd.AbstractDBManager {
         /*Cierre de los recursos utilizados (ResultSets,
         PreparedStatements/Statements…*/
 
-            String sql="SELECT codigo from Articulo";
+            String sql="SELECT codigo from articulo";
             if(s.toUpperCase().equals("OR")){
                 concat = "OR";
 
@@ -158,10 +158,9 @@ public class GestorBD extends bd.AbstractDBManager {
 
 
 
-
-
-                String sqlE="INSERT INTO pedidoEnRealizacion values(?,?,?)";
-                stmE=con.prepareStatement(sqlE);
+            //Primero insertamos el pedido porque hay dependencia para poder insertar lineasEnRealizacion
+            String sqlE="INSERT INTO pedidoenrealizacion values(?,?,?)";
+            stmE=con.prepareStatement(sqlE);
             stmE.setString(1, pedidoEnRealizacion.getCodigo());
 
             stmE.setString(3, pedidoEnRealizacion.getCliente().getCodigo());
@@ -190,7 +189,9 @@ public class GestorBD extends bd.AbstractDBManager {
 
                 ///Parte de las Lineasenrealizacion
 
-            String sqlS="INSERT INTO lineaEnRealizacion values(?,?,?,?,?,?)";
+            //Fuera para poder reutilizarlo con el for.
+
+            String sqlS="INSERT INTO lineaenrealizacion values(?,?,?,?,?,?)";
 
             for(LineaEnRealizacion lineaEnR : pedidoEnRealizacion.getLineas()){
 
@@ -211,7 +212,7 @@ public class GestorBD extends bd.AbstractDBManager {
                         fechaNcc= new Timestamp(fechaNcpp.getTimeInMillis());
 
                     }
-                    stmS.setTimestamp(5,fechaNc);
+                    stmS.setTimestamp(5,fechaNcc);
 
                     stmS.setString(6, pedidoEnRealizacion.getCodigo());
 
