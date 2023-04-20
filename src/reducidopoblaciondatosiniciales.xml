@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <FESTIVO FECHA="2023-01-01"/>
+  <FESTIVO FECHA="2023-01-06"/>
+  <FESTIVO FECHA="2023-04-06"/>
+  <FESTIVO FECHA="2023-04-07"/>
+  <FESTIVO FECHA="2023-04-10"/>
+  <FESTIVO FECHA="2023-05-01"/>
+  <FESTIVO FECHA="2023-06-09"/>
+  <FESTIVO FECHA="2023-08-15"/>
+  <FESTIVO FECHA="2023-10-12"/>
+  <FESTIVO FECHA="2023-11-01"/>
+  <FESTIVO FECHA="2023-12-06"/>
+  <FESTIVO FECHA="2023-12-08"/>
+  <FESTIVO FECHA="2023-12-25"/>
+  <CLIENTE CODIGO="070011/03" CIF="654DD654T" NOMBRE="Electrodomésticos Asun" CALLE="Costa de la Cala Figuera, s.n." CP="7702" CIUDAD="Maó"/>
+  <ARTICULO CODIGO="Mie/072CA" NOMBRE="Campana extractora DA 249-2 - Miele" PVP="246.24"/>
+  <ARTICULO CODIGO="Fag/138MO" NOMBRE="Microondas MW3-245 (N/B) - Fagor" PVP="191.47"/>
+  <ARTICULO CODIGO="Ede/348FO" NOMBRE="Frigorífico 2CP-337 LV - Edesa" PVP="715"/>  
+  <ARTICULO CODIGO="Mie/073CA" NOMBRE="Campana extractora DA 259-2 - Miele" PVP="248.52"/>
+  <ARTICULO CODIGO="Mie/074CA" NOMBRE="Campana extractora DA 269 - Miele" PVP="250.8"/>
+  <ARTICULO CODIGO="Mie/075FO" NOMBRE="Frigorífico-Congelador KF 882 iD-1 - Miele" PVP="780"/>
+  <ARTICULO CODIGO="Mie/076FO" NOMBRE="Frigorífico-Congelador KF 883 iD-1 - Miele" PVP="787.8"/>
+  <ARTICULO CODIGO="Mie/077FO" NOMBRE="Frigorífico-Congelador KF 888 iDN-1 - Miele" PVP="795.6"/>
+  <ARTICULO CODIGO="Mie/078FO" NOMBRE="Frigorífico-Congelador KF 680 i-1 - Miele" PVP="803.4"/>
+  <ARTICULO CODIGO="Mie/079FO" NOMBRE="Frigorífico-Congelador KT 3428 SD ed - Miele" PVP="811.2"/>
+  <ARTICULO CODIGO="Mie/080FO" NOMBRE="Frigorífico-Congelador KT 3540 SN ed - Miele" PVP="819"/>
+  <ARTICULO CODIGO="Mie/081FO" NOMBRE="Frigorífico-Congelador KF 7533 S-1 - Miele" PVP="826.8"/>
+  <ARTICULO CODIGO="Mie/082FO" NOMBRE="Frigorífico-Congelador KF 7564 S-1 - Miele" PVP="834.6"/>
+  <ARTICULO CODIGO="Mie/083FO" NOMBRE="Frigorífico-Congelador KF 7564 Sed-3 - Miele" PVP="842.4"/>
+  <ARTICULO CODIGO="Mie/084FO" NOMBRE="Frigorífico-Congelador KF 7542 SND - Miele" PVP="850.2"/>
+  <ARTICULO CODIGO="Mie/085FO" NOMBRE="Frigorífico-Congelador KF 7544 SND - Miele" PVP="858"/>
+  <ARTICULO CODIGO="Mie/086FO" NOMBRE="Frigorífico-Congelador KF 7544 SND ed-3 - Miele" PVP="865.8"/>
+  <ARTICULO CODIGO="Mie/087FO" NOMBRE="Frigorífico-Congelador KF 7652 SN ed - Miele" PVP="873.6"/>
+  <ARTICULO CODIGO="Mie/088FO" NOMBRE="Frigorífico-Congelador KF 7654 SNE ed  - Miele" PVP="881.4"/>
+  <ARTICULO CODIGO="Mie/089FO" NOMBRE="Frigorífico-Congelador KF 7500 SND ed-3 - Miele" PVP="889.2"/>
+  <ARTICULO CODIGO="Mie/090AR" NOMBRE="Aspirador de escoba S 144 - Miele" PVP="90"/>
+  <ARTICULO CODIGO="Mie/091AR" NOMBRE="Aspirador de trineo S 371 - Miele" PVP="90.9"/>
+  <ARTICULO CODIGO="Mie/092AR" NOMBRE="Aspirador de trineo S 711 - Miele" PVP="91.8"/>
+  <ARTICULO CODIGO="Mie/093AR" NOMBRE="Aspirador de trineo S 712 PARQUET - Miele" PVP="92.7"/>
+  <ARTICULO CODIGO="Mie/094AR" NOMBRE="Aspirador de trineo S 726 CAT DOG - Miele" PVP="93.6"/>
+  <ARTICULO CODIGO="Mie/095AR" NOMBRE="Aspirador Xtra Power 2100 - Miele" PVP="94.5"/>
+  <ARTICULO CODIGO="Mie/096AR" NOMBRE="Aspirador Allergy Control 700 - Miele" PVP="95.4"/>
+  <ARTICULO CODIGO="Mie/097AR" NOMBRE="Aspirador Total Care - Miele" PVP="96.3"/>
+  <ARTICULO CODIGO="Fag/240LD" NOMBRE="Lavadora 1F-206 - Fagor" PVP="402.5"/>
+  <ARTICULO CODIGO="Fag/241LD" NOMBRE="Lavadora 1F-2607 - Fagor" PVP="406.52"/>
+  <ARTICULO CODIGO="Fag/242LD" NOMBRE="Lavadora 1F-2609 - Fagor" PVP="410.55"/>
+  <ARTICULO CODIGO="Fag/243LD" NOMBRE="Lavadora 1F-2609 LX - Fagor" PVP="414.57"/>
+  <ARTICULO CODIGO="Fag/244LD" NOMBRE="Lavadora 1F-2611 - Fagor" PVP="418.6"/>
+  <ARTICULO CODIGO="Fag/245LD" NOMBRE="Lavadora 1F-3609 - Fagor" PVP="422.62"/>
+  <ARTICULO CODIGO="Fag/246LD" NOMBRE="Lavadora 1F-3609 LA - Fagor" PVP="426.65"/>
+  <ARTICULO CODIGO="Fag/247LD" NOMBRE="Lavadora 1F-3611 - Fagor" PVP="430.67"/>
+  <ARTICULO CODIGO="Fag/248LD" NOMBRE="Lavadora 1F-3611 X - Fagor" PVP="434.7"/>
+  <ARTICULO CODIGO="Fag/249LD" NOMBRE="Lavadora 1F-3613 - Fagor" PVP="438.72"/>
+  <ARTICULO CODIGO="Fag/250LD" NOMBRE="Lavadora 1F-3609 IT - Fagor" PVP="442.75"/>
+  <ARTICULO CODIGO="Fag/251LD" NOMBRE="Lavadora 1F-3611 IT - Fagor" PVP="446.77"/>
+  <ARTICULO CODIGO="Fag/252LD" NOMBRE="Lavadora FS-3611 - Fagor" PVP="450.8"/>
+  <ARTICULO CODIGO="Fag/253LD" NOMBRE="Lavadora F-S-1148 - Fagor" PVP="454.82"/>
+  <ARTICULO CODIGO="Fag/254LD" NOMBRE="Lavadora FS-3611 IT - Fagor" PVP="458.85"/>
+  <ARTICULO CODIGO="Fag/255LD" NOMBRE="Lavadora 1F-2609 P - Fagor" PVP="462.87"/>
+  <ARTICULO CODIGO="Fag/256LD" NOMBRE="Lavadora 1F-2609 PN - Fagor" PVP="466.9"/>
+  <ARTICULO CODIGO="Fag/257LD" NOMBRE="Lavadora 1F-2611 P - Fagor" PVP="470.92"/>
+  <ARTICULO CODIGO="Fag/258LD" NOMBRE="Lavadora 2FT-76 - Fagor" PVP="474.95"/>
+  <ARTICULO CODIGO="Fag/259LD" NOMBRE="Lavadora 2FT-96 - Fagor" PVP="478.97"/>
+  <ARTICULO CODIGO="Fag/260LD" NOMBRE="Lavadora FT-309 - Fagor" PVP="483"/>
+  <ARTICULO CODIGO="Fag/261LD" NOMBRE="Lavadora FT-311 - Fagor" PVP="487.02"/>
+  <ARTICULO CODIGO="Fag/262LD" NOMBRE="Lavadora FT-4116 - Fagor" PVP="491.05"/>
+  <ARTICULO CODIGO="Fag/263LD" NOMBRE="Lavadora FT-4136 - Fagor" PVP="495.07"/>
+  <ARTICULO CODIGO="Fag/264LD" NOMBRE="Lavadora F-106 S - Fagor" PVP="499.1"/>
+  <ARTICULO CODIGO="Fag/265FO" NOMBRE="Frigorífico FSC-15 E - Fagor" PVP="747.5"/>
+  <ARTICULO CODIGO="Mie/001LD" NOMBRE="Lavadora Softtronic W 404  - Miele" PVP="420"/>
+  <ARTICULO CODIGO="Mie/002LD" NOMBRE="Lavadora Softtronic W 408  - Miele" PVP="424.2"/>
+  <ARTICULO CODIGO="Mie/003LD" NOMBRE="Lavadora Softtronic W 409  - Miele" PVP="428.4"/>
+  <ARTICULO CODIGO="Mie/004LD" NOMBRE="Lavadora Softtronic W 460 WPS  - Miele" PVP="432.6"/>
+  <ARTICULO CODIGO="Mie/005LD" NOMBRE="Lavadora Softtronic W Grandiosa T  - Miele" PVP="436.8"/>
+  <ARTICULO CODIGO="Mie/006LD" NOMBRE="Lavadora Softtronic W 487 WPS  - Miele" PVP="441"/>
+  <ARTICULO CODIGO="Mie/007LD" NOMBRE="Lavadora Softtronic W 489i WPS  - Miele" PVP="445.2"/>
+  <ARTICULO CODIGO="Mie/008LD" NOMBRE="Lavadora Softtronic W 489 WPS  - Miele" PVP="449.4"/>
+  <ARTICULO CODIGO="Mie/009LD" NOMBRE="Lavadora Novotronic W 302  - Miele" PVP="453.6"/>
+  <ARTICULO CODIGO="Mie/010LD" NOMBRE="Lavadora Novotronic W 969 - Miele" PVP="457.8"/>
+  <PEDIDOENREALIZACION></PEDIDOENREALIZACION>
+  <LINEAENREALIZACION></LINEAENREALIZACION>
+  <NUMDOC></NUMDOC>
+</dataset>

@@ -1,0 +1,29 @@
+
+name: Build and test of Java Project
+ 
+on: [push]
+ 
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   timeout-minutes: 6
+   environment:
+      ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe ORACLE_SID=XE OCI_LIB_DIR=/u01/app/oracle/product/11.2.0/xe/lib LD_LIBRARY_PATH=/u01/app/oracle/product/11.2.0/xe/lib
+   steps:
+     - uses: actions/checkout@v2
+     - name: Set up JDK 17
+       uses: actions/setup-java@v1
+       with:
+         java-version: 17
+     - name: Setup timezone
+       uses: zcong1993/setup-timezone@master
+       with:
+          timezone: Europe/Madrid
+     - name: Install Oracle
+       run:  bash ./accept_the_license_agreement_for_oracledb_xe_11g_and_install.sh
+       shell: bash
+     - name: Create database
+       run:  bash ./create_tables.sh
+       shell: bash 
+     - name: Build with Maven
+       run: mvn -B test --file pom.xml
